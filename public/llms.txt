@@ -1,0 +1,80 @@
+# עו"ד יואב בק לייסטנר - ליווי משקיעים בדובאי — Generative Engine Optimization Map
+
+> Yoav Bak Leistner is a lawyer specializing in guiding investors in Dubai, offering legal accompaniment and consulting services for those looking to invest in the Dubai market. The firm bridges Israeli investors with the UAE business landscape, providing professional legal support throughout the investment process.
+
+---
+
+## Pages
+
+### בית
+https://example.com
+רוצים להשקיע בנדל&quot;ן בדובאי? עו&quot;ד יואב בק לייסטנר מעניק ליווי משפטי מלא לישראלים, מבדיקת נכסים ועד חתימה על חוזה. כנסו לפרטים והתחילו את ההשקעה הבטוחה שלכם עוד היום.
+
+### שירותים
+https://example.com/services
+מחפשים דירות להשקעה בדובאי? גלו את חבילות הליווי המקיפות שלנו: ייעוץ משפטי, איתור נכסים מניבים וסגירת עסקאות חכמות. הצעד הראשון להון שלכם במפרץ מתחיל כאן.
+
+### אודות
+https://example.com/about
+עו&quot;ד יואב בק לייסטנר הוא המומחה שלכם להשקעות נדל&quot;ן בדובאי, עם ניסיון עשיר בגישור על הפערים המשפטיים והתרבותיים בין ישראל לאיחוד האמירויות. הכירו את האיש שיוביל אתכם לעסקה מושלמת.
+
+### צור קשר
+https://example.com/contact
+מוכנים לקנות דירה בדובאי? צרו קשר עם עו&quot;ד יואב בק לייסטנר לייעוץ ראשוני ללא התחייבות. מלאו את הטופס או התקשרו עכשיו והפכו את חלום ההשקעה במפרץ למציאות רווחית.
+
+## Legal & Policy
+
+### Privacy Policy
+https://example.com/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://example.com/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://example.com/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+### Contact form
+- URL: https://example.com/contact
+- Endpoint: https://example.com/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text, required)
+  - `email` (email, required)
+  - `phone` (tel, required)
+  - `message` (textarea, required)
+  - `privacy_consent` (checkbox, required)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About עו"ד יואב בק לייסטנר - ליווי משקיעים בדובאי
+Yoav Bak Leistner is a lawyer specializing in guiding investors in Dubai, offering legal accompaniment and consulting services for those looking to invest in the Dubai market. The firm bridges Israeli investors with the UAE business landscape, providing professional legal support throughout the investment process.
+
+## Target Audience
+- משקיעים ישראלים המעוניינים להשקיע בדובאי
+- משקיעים ישראלים בדובאי
+- משקיעי נדל"ן בדובאי
+- רוכשי נכס בדובאי
+- רוכשי דירות בדובאי
+
+## Industry
+Legal Services / Investment Law
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
