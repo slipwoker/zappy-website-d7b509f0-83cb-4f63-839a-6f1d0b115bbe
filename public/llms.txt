@@ -7,33 +7,33 @@
 ## Pages
 
 ### בית
-https://example.com
+https://adv-yoav-bek-leistner-dubai-in.zappy5.app
 רוצים להשקיע בנדל&quot;ן בדובאי? עו&quot;ד יואב בק לייסטנר מעניק ליווי משפטי מלא לישראלים, מבדיקת נכסים ועד חתימה על חוזה. כנסו לפרטים והתחילו את ההשקעה הבטוחה שלכם עוד היום.
 
 ### שירותים
-https://example.com/services
+https://adv-yoav-bek-leistner-dubai-in.zappy5.app/services
 מחפשים דירות להשקעה בדובאי? גלו את חבילות הליווי המקיפות שלנו: ייעוץ משפטי, איתור נכסים מניבים וסגירת עסקאות חכמות. הצעד הראשון להון שלכם במפרץ מתחיל כאן.
 
 ### אודות
-https://example.com/about
+https://adv-yoav-bek-leistner-dubai-in.zappy5.app/about
 עו&quot;ד יואב בק לייסטנר הוא המומחה שלכם להשקעות נדל&quot;ן בדובאי, עם ניסיון עשיר בגישור על הפערים המשפטיים והתרבותיים בין ישראל לאיחוד האמירויות. הכירו את האיש שיוביל אתכם לעסקה מושלמת.
 
 ### צור קשר
-https://example.com/contact
+https://adv-yoav-bek-leistner-dubai-in.zappy5.app/contact
 מוכנים לקנות דירה בדובאי? צרו קשר עם עו&quot;ד יואב בק לייסטנר לייעוץ ראשוני ללא התחייבות. מלאו את הטופס או התקשרו עכשיו והפכו את חלום ההשקעה במפרץ למציאות רווחית.
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://adv-yoav-bek-leistner-dubai-in.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://adv-yoav-bek-leistner-dubai-in.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://adv-yoav-bek-leistner-dubai-in.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -46,8 +46,8 @@ Information about WCAG compliance and accessibility features.
 - Address: שד' הגעתון 21, נהריה
 
 ### Contact form
-- URL: https://example.com/contact
-- Endpoint: https://example.com/api/email/contact-form
+- URL: https://adv-yoav-bek-leistner-dubai-in.zappy5.app/contact
+- Endpoint: https://adv-yoav-bek-leistner-dubai-in.zappy5.app/api/email/contact-form
 - Method: POST
 - Content-Type: application/json
 - Fields:
@@ -78,6 +78,6 @@ Legal Services / Investment Law
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://example.com/sitemap.xml
-- Robots: https://example.com/robots.txt
-- Flattened page text (for LLMs): https://example.com/llms-full.txt
+- Sitemap (XML): https://adv-yoav-bek-leistner-dubai-in.zappy5.app/sitemap.xml
+- Robots: https://adv-yoav-bek-leistner-dubai-in.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://adv-yoav-bek-leistner-dubai-in.zappy5.app/llms-full.txt
