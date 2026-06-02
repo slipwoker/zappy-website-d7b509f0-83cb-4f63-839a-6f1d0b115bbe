@@ -7618,6 +7618,320 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 ._access-icon {
   display: flex !important;
 }
+
+/* Added Component Styles */
+/* =============================================
+   TESTIMONIALS SECTION — עו"ד יואב בק לייסטנר
+   ============================================= */
+
+.tst-testimonials {
+  direction: rtl;
+  font-family: system-ui, sans-serif;
+  background: linear-gradient(160deg, #f0f4fa 0%, #e8eef7 50%, #f5f7fb 100%);
+  padding: 90px 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Decorative background element */
+.tst-testimonials::before {
+  content: '';
+  position: absolute;
+  top: -120px;
+  left: -120px;
+  width: 420px;
+  height: 420px;
+  background: radial-gradient(circle, rgba(46,67,102,0.07) 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.tst-testimonials::after {
+  content: '';
+  position: absolute;
+  bottom: -80px;
+  right: -80px;
+  width: 320px;
+  height: 320px;
+  background: radial-gradient(circle, rgba(46,67,102,0.06) 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+/* Container */
+.tst-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+/* Header */
+.tst-header {
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.tst-badge {
+  display: inline-block;
+  background: rgba(46, 67, 102, 0.1);
+  color: var(--primary, #2E4366);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 6px 18px;
+  border-radius: 50px;
+  border: 1px solid rgba(46, 67, 102, 0.2);
+  margin-bottom: 16px;
+}
+
+.tst-title {
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  font-weight: 800;
+  color: var(--primary, #2E4366);
+  margin: 0 0 16px 0;
+  line-height: 1.25;
+}
+
+.tst-subtitle {
+  font-size: 1.05rem;
+  color: #4a5568;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+/* Grid */
+.tst-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  margin-bottom: 56px;
+}
+
+/* Card */
+.tst-card {
+  background: #ffffff;
+  border: 1px solid rgba(46, 67, 102, 0.12);
+  border-radius: 16px;
+  padding: 28px 24px 24px;
+  box-shadow: 0 4px 20px rgba(46, 67, 102, 0.07);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  transition: transform 0.28s ease, box-shadow 0.28s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.tst-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--primary, #2E4366), #4a6fa5);
+  border-radius: 16px 16px 0 0;
+}
+
+.tst-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 36px rgba(46, 67, 102, 0.15);
+}
+
+/* Card top row */
+.tst-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Quote icon */
+.tst-quote-icon {
+  font-size: 3.5rem;
+  line-height: 1;
+  color: var(--primary, #2E4366);
+  opacity: 0.18;
+  font-family: Georgia, serif;
+  margin-top: -8px;
+  user-select: none;
+}
+
+/* Stars */
+.tst-stars {
+  display: flex;
+  gap: 3px;
+}
+
+.tst-star {
+  color: #f5a623;
+  font-size: 17px;
+  line-height: 1;
+}
+
+/* Review text */
+.tst-text {
+  font-size: 0.95rem;
+  color: #374151;
+  line-height: 1.75;
+  margin: 0;
+  flex-grow: 1;
+  border-right: 3px solid var(--primary, #2E4366);
+  padding-right: 14px;
+  font-style: normal;
+}
+
+/* Author row */
+.tst-author {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: auto;
+  padding-top: 16px;
+  border-top: 1px solid rgba(46, 67, 102, 0.1);
+}
+
+/* Photo wrapper */
+.tst-photo-wrap {
+  flex-shrink: 0;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid rgba(46, 67, 102, 0.2);
+  box-shadow: 0 2px 8px rgba(46, 67, 102, 0.15);
+}
+
+.tst-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.tst-card:hover .tst-photo {
+  transform: scale(1.08);
+}
+
+/* Author info */
+.tst-author-info {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.tst-name {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--primary, #2E4366);
+  line-height: 1.2;
+}
+
+.tst-company {
+  font-size: 0.82rem;
+  color: #6b7280;
+  line-height: 1.3;
+}
+
+/* Trust bar */
+.tst-trust-bar {
+  background: var(--primary, #2E4366);
+  border-radius: 16px;
+  padding: 32px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  box-shadow: 0 8px 32px rgba(46, 67, 102, 0.3);
+}
+
+.tst-trust-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  flex: 1;
+  text-align: center;
+}
+
+.tst-trust-number {
+  font-size: clamp(1.8rem, 3vw, 2.4rem);
+  font-weight: 800;
+  color: #ffffff;
+  line-height: 1;
+}
+
+.tst-trust-label {
+  font-size: 0.88rem;
+  color: rgba(255, 255, 255, 0.78);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.tst-trust-divider {
+  width: 1px;
+  height: 52px;
+  background: rgba(255, 255, 255, 0.2);
+  flex-shrink: 0;
+  margin: 0 20px;
+}
+
+/* =============================================
+   RESPONSIVE — Tablet (≤1024px)
+   ============================================= */
+@media (max-width: 1024px) {
+  .tst-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+/* =============================================
+   RESPONSIVE — Mobile (≤640px)
+   ============================================= */
+@media (max-width: 640px) {
+  .tst-testimonials {
+    padding: 60px 16px;
+  }
+
+  .tst-header {
+    margin-bottom: 36px;
+  }
+
+  .tst-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .tst-card {
+    padding: 22px 18px 20px;
+  }
+
+  .tst-trust-bar {
+    flex-direction: column;
+    padding: 28px 24px;
+    gap: 24px;
+  }
+
+  .tst-trust-divider {
+    width: 60px;
+    height: 1px;
+    margin: 0;
+  }
+
+  .tst-trust-item {
+    width: 100%;
+  }
+}
+
+/* Focus styles for accessibility */
+.tst-card:focus-within {
+  outline: 2px solid var(--primary, #2E4366);
+  outline-offset: 2px;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
