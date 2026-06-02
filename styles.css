@@ -7932,6 +7932,322 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
   outline: 2px solid var(--primary, #2E4366);
   outline-offset: 2px;
 }
+
+/* Added Component Styles */
+/* ===== TESTIMONIALS DUBAI SECTION ===== */
+.testimonials-dubai-section {
+  background: linear-gradient(160deg, #f0f4fa 0%, #e8eef7 50%, #f5f7fb 100%);
+  padding: 90px 20px;
+  font-family: system-ui, sans-serif;
+  direction: rtl;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Decorative background accent */
+.testimonials-dubai-section::before {
+  content: '';
+  position: absolute;
+  top: -80px;
+  left: -80px;
+  width: 320px;
+  height: 320px;
+  background: radial-gradient(circle, rgba(46,67,102,0.07) 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.testimonials-dubai-section::after {
+  content: '';
+  position: absolute;
+  bottom: -60px;
+  right: -60px;
+  width: 260px;
+  height: 260px;
+  background: radial-gradient(circle, rgba(46,67,102,0.05) 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+/* Container */
+.testimonials-dubai-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+/* Header */
+.testimonials-dubai-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.testimonials-dubai-badge {
+  display: inline-block;
+  background: var(--primary, #2E4366);
+  color: #ffffff;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  padding: 6px 18px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+
+.testimonials-dubai-title {
+  font-size: 2.4rem;
+  font-weight: 800;
+  color: var(--primary, #2E4366);
+  margin: 0 0 16px 0;
+  line-height: 1.3;
+}
+
+.testimonials-dubai-subtitle {
+  font-size: 1.1rem;
+  color: #4a5568;
+  max-width: 620px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+/* Grid */
+.testimonials-dubai-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  margin-bottom: 60px;
+}
+
+/* Card */
+.testimonials-dubai-card {
+  background: #ffffff;
+  border: 1px solid rgba(46,67,102,0.12);
+  border-radius: 16px;
+  padding: 28px 26px;
+  box-shadow: 0 4px 18px rgba(46,67,102,0.07);
+  transition: transform 0.28s ease, box-shadow 0.28s ease, border-color 0.28s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+}
+
+.testimonials-dubai-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 36px rgba(46,67,102,0.14);
+  border-color: rgba(46,67,102,0.28);
+}
+
+/* Card top: avatar + person info */
+.testimonials-dubai-card-top {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+/* Avatar */
+.testimonials-dubai-avatar-wrap {
+  flex-shrink: 0;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid var(--primary, #2E4366);
+  box-shadow: 0 2px 10px rgba(46,67,102,0.18);
+}
+
+.testimonials-dubai-avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Person info */
+.testimonials-dubai-person {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.testimonials-dubai-name {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--primary, #2E4366);
+  line-height: 1.2;
+}
+
+.testimonials-dubai-role {
+  font-size: 0.82rem;
+  color: #718096;
+  line-height: 1.3;
+}
+
+.testimonials-dubai-area-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: rgba(46,67,102,0.08);
+  color: var(--primary, #2E4366);
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 50px;
+  margin-top: 4px;
+  width: fit-content;
+}
+
+.testimonials-dubai-area-icon {
+  font-size: 0.7rem;
+}
+
+/* Stars */
+.testimonials-dubai-stars {
+  color: #f6ad55;
+  font-size: 1.15rem;
+  letter-spacing: 2px;
+  line-height: 1;
+}
+
+/* Quote */
+.testimonials-dubai-quote {
+  margin: 0;
+  padding: 0;
+  font-size: 0.93rem;
+  color: #2d3748;
+  line-height: 1.75;
+  border-right: 3px solid var(--primary, #2E4366);
+  padding-right: 14px;
+  font-style: normal;
+  flex-grow: 1;
+}
+
+/* Result badge */
+.testimonials-dubai-result {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: linear-gradient(135deg, rgba(46,67,102,0.07) 0%, rgba(46,67,102,0.04) 100%);
+  border: 1px solid rgba(46,67,102,0.15);
+  border-radius: 10px;
+  padding: 10px 14px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--primary, #2E4366);
+  margin-top: auto;
+}
+
+.testimonials-dubai-result-icon {
+  font-size: 1rem;
+  flex-shrink: 0;
+}
+
+/* CTA Block */
+.testimonials-dubai-cta-wrap {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+.testimonials-dubai-cta-text {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--primary, #2E4366);
+  margin: 0;
+}
+
+.testimonials-dubai-cta-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--primary, #2E4366);
+  color: #ffffff;
+  font-size: 1.05rem;
+  font-weight: 700;
+  padding: 16px 38px;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: background 0.25s ease, transform 0.22s ease, box-shadow 0.25s ease;
+  box-shadow: 0 6px 22px rgba(46,67,102,0.28);
+  letter-spacing: 0.02em;
+}
+
+.testimonials-dubai-cta-btn:hover,
+.testimonials-dubai-cta-btn:focus-visible {
+  background: #1a2d4a;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(46,67,102,0.38);
+  outline: none;
+}
+
+.testimonials-dubai-cta-btn:focus-visible {
+  outline: 3px solid #f6ad55;
+  outline-offset: 3px;
+}
+
+.testimonials-dubai-cta-arrow {
+  font-size: 1.2rem;
+  transition: transform 0.22s ease;
+}
+
+.testimonials-dubai-cta-btn:hover .testimonials-dubai-cta-arrow {
+  transform: translateX(-4px);
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 1024px) {
+  .testimonials-dubai-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px;
+  }
+
+  .testimonials-dubai-title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .testimonials-dubai-section {
+    padding: 60px 16px;
+  }
+
+  .testimonials-dubai-header {
+    margin-bottom: 40px;
+  }
+
+  .testimonials-dubai-title {
+    font-size: 1.6rem;
+  }
+
+  .testimonials-dubai-subtitle {
+    font-size: 1rem;
+  }
+
+  .testimonials-dubai-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .testimonials-dubai-card {
+    padding: 22px 18px;
+  }
+
+  .testimonials-dubai-cta-btn {
+    font-size: 0.97rem;
+    padding: 14px 28px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .testimonials-dubai-cta-text {
+    font-size: 1.1rem;
+  }
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
